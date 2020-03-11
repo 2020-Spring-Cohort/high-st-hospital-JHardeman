@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashMap;
 
 public class Hospital {
     private HashMap<String, Employees> employeeList = new HashMap<>();

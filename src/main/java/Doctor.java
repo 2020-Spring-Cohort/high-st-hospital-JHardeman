@@ -13,6 +13,11 @@ public class Doctor extends Employees implements MedicalLicense {
     }
 
 
+    public int paySalary() {
+        return 90000;
+    }
+
+
     @Override
     public void drawblood(Patient testPatient) {
 
@@ -27,5 +32,7 @@ public class Doctor extends Employees implements MedicalLicense {
     public void giveblood(Patient testPatient) {
 
     }
+
+
 
 }
