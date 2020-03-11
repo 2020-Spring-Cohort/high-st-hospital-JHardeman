@@ -12,6 +12,14 @@ public class Receptionist extends Employees {
         return 45000;
     }
 
+    public boolean getOnPhone(){
+        return onPhone;
+    }
+
+    public void answerPhone(){
+        onPhone = true;
+    }
+
     @Override
     public String toString() {
         return "Position= receptionist, name= " + getName()

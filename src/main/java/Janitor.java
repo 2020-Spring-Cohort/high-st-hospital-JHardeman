@@ -22,4 +22,8 @@ public class Janitor extends Employees {
                 + ", salary= " + paySalary()
                 + ", is paid= " + getIsPaid();
     }
+
+    public void Sweep() {
+        isSweeping = true;
+    }
 }
