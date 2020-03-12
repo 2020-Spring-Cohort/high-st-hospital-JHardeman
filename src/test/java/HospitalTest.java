@@ -11,19 +11,19 @@ public class HospitalTest {
     @BeforeEach
     void setUp() {
         underTest = new Hospital();
-        testEmployees = new Employees("testEmployees", 0, false);
+        testEmployees = new Employees("testEmployees", 0, false, 1);
 
     }
 
     @Test
     public void canAddEmployeesToList(){
-        underTest.addEmployee(testEmployees);
+        underTest.addEmployeesToList(testEmployees);
         assertEquals(1, underTest.size());
     }
 
     @Test
     public void canPayEmployees(){
-        underTest.addEmployee(testEmployees);
+        underTest.addEmployeesToList(testEmployees);
         underTest.payEmployees();
         assertTrue(testEmployees.getIsPaid());
     }

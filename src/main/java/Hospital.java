@@ -1,11 +1,15 @@
 import java.util.HashMap;
-import java.util.HashMap;
+
 
 public class Hospital {
-    private HashMap<String, Employees> employeeList = new HashMap<>();
+    private HashMap<Integer, Employees> employeeList = new HashMap<>();
 
-    public HashMap<String, Employees> getEmployeeList() {
+    public HashMap<Integer, Employees> getEmployeeList() {
         return employeeList;
+    }
+
+    public void addEmployeesToList(Employees testEmployees){
+        employeeList.put(testEmployees.getIDNumber(), testEmployees);
     }
 
     public int size() {

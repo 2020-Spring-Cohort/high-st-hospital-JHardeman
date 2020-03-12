@@ -1,6 +1,6 @@
 public class Employees {
     private String name;
-    int idNumber;
+    private int idNumber;
     private boolean isPaid;
     public int salary;
 
@@ -12,8 +12,8 @@ public class Employees {
         this.salary = salary;
     }
 
-    public Employees(String testName, int i, boolean b) {
-    }
+//    public Employees(String testName, int i, boolean b) {
+//    }
 
     public boolean getIsPaid() {
         return isPaid;
@@ -28,8 +28,8 @@ public class Employees {
         return 0;
     }
 
-    public String getIDNumber() {
-        return String.valueOf(idNumber);
+    public int getIDNumber() {
+        return idNumber;
     }
 
 
