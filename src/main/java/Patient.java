@@ -1,5 +1,5 @@
 public class Patient {
-    String Name;
+    private String Name;
     private int Blood_Level = 20;
     private int Health_Level = 10;
 
@@ -59,6 +59,7 @@ public class Patient {
                 + ", Health_Level=" + Health_Level +
                 ", Blood_Level=" + Blood_Level;
     }
+
 
 
 }

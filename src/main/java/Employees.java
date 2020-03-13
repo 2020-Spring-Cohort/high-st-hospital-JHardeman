@@ -12,8 +12,7 @@ public class Employees {
         this.salary = salary;
     }
 
-//    public Employees(String testName, int i, boolean b) {
-//    }
+
 
     public boolean getIsPaid() {
         return isPaid;
